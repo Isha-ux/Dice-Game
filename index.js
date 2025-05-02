@@ -2,9 +2,9 @@
 var randomNumber1=Math.floor(Math.random()*6)+1;//1-6 random number generated
 
 
-var randomImgSrc="./Images/"+"dice"+randomNumber1+".png";//Images/dice1.png-Images/dice6.png
+var randomImgSrc1="./Images/"+"dice"+randomNumber1+".png";//Images/dice1.png-Images/dice6.png
 
-document.querySelectorAll("img")[0].setAttribute("src",randomImgSrc);
+document.querySelectorAll("img")[0].setAttribute("src",randomImgSrc1);
 
 
 //2nd box
